@@ -1,0 +1,14 @@
+{
+  "include": ["**/.vitepress/**/*", "env.d.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "jsx": "preserve"
+  }
+}

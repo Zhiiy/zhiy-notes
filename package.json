@@ -1,10 +1,19 @@
 {
-  "devDependencies": {
-    "vitepress": "1.0.0-rc.43"
-  },
+  "name": "zhiy-notes",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
-  }
+  },
+  "devDependencies": {
+    "@zhiiys/prettier": "^1.1.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.71.1",
+    "vitepress": "1.0.0-rc.43",
+    "vue": "^3.4.19"
+  },
+  "prettier": "@zhiiys/prettier"
 }

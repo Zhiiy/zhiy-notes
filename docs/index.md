@@ -1,11 +1,10 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "zhiy's notes"
-  text: ""
-  tagline: ""
+  text: ''
+  tagline: ''
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +21,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
