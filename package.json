@@ -15,5 +15,8 @@
     "vitepress": "1.0.0-rc.43",
     "vue": "^3.4.19"
   },
-  "prettier": "@zhiiys/prettier"
+  "prettier": "@zhiiys/prettier",
+  "dependencies": {
+    "@mdit-vue/shared": "^2.0.0"
+  }
 }

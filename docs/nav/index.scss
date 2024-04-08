@@ -1,0 +1,17 @@
+.nav-layout {
+  --vp-layout-max-width: 1600px;
+
+  .container {
+    max-width: var(--vp-layout-max-width) !important;
+  }
+
+  .content,
+  .content-container {
+    max-width: 100% !important;
+  }
+
+  .aside {
+    padding-left: 0;
+    max-width: 200px;
+  }
+}

@@ -11,6 +11,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar: [],
+    outline: {
+      level: 'deep',
+      label: '目录',
+    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Zhiiy' }],
   },
 })
