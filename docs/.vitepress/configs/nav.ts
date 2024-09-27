@@ -2,11 +2,8 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   {
-    text: '导航',
-    items: [
-      { text: '开发导航', link: '/nav/dev' },
-      { text: '站点导航', link: '/nav/website' },
-    ],
+    text: '开发导航',
+    link: '/nav/dev'
   },
   {
     text: '笔记',
@@ -17,7 +14,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [],
   },
   {
-    text: '前端',
+    text: '工作提效',
     items: [],
   },
 ]

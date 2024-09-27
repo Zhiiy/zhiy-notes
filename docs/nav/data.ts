@@ -43,6 +43,11 @@ export const LIB_DATA: NavData[] = [
         link: 'https://www.jyshare.com',
         desc: '在线工具箱',
       },
+      {
+        title: 'Grid 布局',
+        link: 'https://cssgrid-generator.netlify.app/',
+        desc: 'grid 布局生成工具',
+      },
     ],
   },
   {
@@ -62,8 +67,8 @@ export const LIB_DATA: NavData[] = [
       },
       {
         title: 'pinia-plugin-persistedstate',
-        icon: 'https://pinia.vuejs.org/logo.svg',
-        link: 'https://prazdevs.github.io/pinia-plugin-persistedstate/zh/',
+        icon: 'https://prazdevs.github.io/pinia-plugin-persistedstate/logo-light.svg',
+        link: 'https://prazdevs.github.io/pinia-plugin-persistedstate/',
         desc: '适用于 Pinia 的持久化存储插件',
       },
       {
@@ -74,9 +79,9 @@ export const LIB_DATA: NavData[] = [
       },
       {
         title: 'VueUse',
-        icon: 'https://inhiblab-core.gitee.io/docs/hooks/logo.svg',
-        link: 'https://inhiblab-core.gitee.io/docs/hooks',
-        desc: '高性能 & 简约的 Vue3 Hooks 库',
+        icon: 'https://vueuse.pages.dev/favicon.svg',
+        link: 'https://vueuse.pages.dev/',
+        desc: 'Vue 必备的组合式工具集',
       },
       {
         title: 'VitePress',
@@ -92,7 +97,7 @@ export const LIB_DATA: NavData[] = [
       },
       {
         title: 'Naive UI',
-        icon: 'https://www.naiveui.com/assets/naivelogo-XQ1U1Js8.svg',
+        icon: 'https://www.naiveui.com/assets/naivelogo-BdDVTUmz.svg',
         link: 'https://www.naiveui.com/zh-CN/os-theme',
         desc: '基于 Vue 3，有点意思的组件库',
       },
@@ -161,6 +166,26 @@ export const LIB_DATA: NavData[] = [
         title: 'Axios',
         link: 'https://www.axios-http.cn',
         desc: 'Axios 是一个基于 promise 的网络请求库，可以用于浏览器和 node.js',
+      },
+      {
+        title: 'Bigjs',
+        link: 'https://github.com/MikeMcl/big.js',
+        desc: '一个用于任意精度十进制运算的小型、快速的 JavaScript 库',
+      },
+    ],
+  },
+  {
+    title: '动画',
+    items: [
+      {
+        title: 'GSAP',
+        link: 'https://github.com/greensock/GSAP',
+        desc: 'GSAP 是一个与框架无关的JavaScript 动画库，构建适用于所有主流浏览器的高性能动画',
+      },
+      {
+        title: 'CountUp',
+        link: 'https://github.com/inorganik/countUp.js',
+        desc: 'CountUp.js 是一个无依赖的轻量级 Javascript 类，可用于快速创建以更有趣的方式显示数字数据的动画',
       },
     ],
   },

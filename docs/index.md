@@ -6,12 +6,12 @@ hero:
   text: ''
   tagline: ''
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: brand
+    #   text: 开发导航
+    #   link: /nav/dev
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: Feature A
