@@ -48,6 +48,16 @@ export const LIB_DATA: NavData[] = [
         link: 'https://cssgrid-generator.netlify.app/',
         desc: 'grid 布局生成工具',
       },
+      {
+        title: 'regexr',
+        link: 'https://regexr-cn.com',
+        desc: '学习、构建和测试正则表达式的在线工具',
+      },
+      {
+        title: 'regex-vis',
+        link: 'https://regex-vis.com',
+        desc: '正则进行可视化展示工具',
+      },
     ],
   },
   {

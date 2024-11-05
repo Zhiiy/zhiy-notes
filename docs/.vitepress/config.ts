@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-import { nav } from './configs'
+import { nav, sidebar } from './configs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav,
-    sidebar: [],
+    sidebar,
     outline: {
       level: 'deep',
       label: '目录',
